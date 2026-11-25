@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Политика конфиденциальности — Purr</title>
+<style>
+  :root{--ink:#2f2a22;--muted:#6d6455;--line:#e2d8c6;--bg:#fbf7ef;--card:#fffdf8}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Georgia,serif}
+  main{max-width:760px;margin:0 auto;padding:48px 22px 96px}
+  h1{font-size:34px;line-height:1.15;margin:0 0 6px;letter-spacing:-.5px}
+  h2{font-size:21px;margin:38px 0 10px;letter-spacing:-.2px}
+  h3{font-size:17px;margin:26px 0 8px;color:var(--muted)}
+  p{margin:10px 0}
+  ul{margin:10px 0;padding-left:22px}
+  li{margin:5px 0}
+  code{background:#f0e8d8;padding:1px 6px;border-radius:5px;font-size:.88em;
+       font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  table{width:100%;border-collapse:collapse;margin:14px 0;
+        background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#f5eee0;font-size:13px;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+  tr:last-child td{border-bottom:0}
+  hr{border:0;border-top:1px solid var(--line);margin:42px 0 26px}
+  strong{font-weight:600}
+  @media(max-width:520px){main{padding:30px 16px 70px}h1{font-size:27px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Политика конфиденциальности — Purr</h1>
+<p><strong>Дата вступления в силу:</strong> 25 ноября 2026 г.</p>
+<p><strong>Последнее обновление:</strong> 25 ноября 2026 г.</p>
+<h2>1. Коротко</h2>
+<p>Приложение <strong>Purr</strong> (далее — Приложение) не собирает, не передаёт и не продаёт персональные данные пользователей. Приложению не нужен интернет: вся сцена, текстуры, звук и логика работы находятся внутри установочного файла.</p>
+<h2>2. Какие данные НЕ собираются</h2>
+<p>Приложение не запрашивает и не получает:</p>
+<ul>
+<li>имя, фамилию, адрес электронной почты, номер телефона;</li>
+<li>геолокацию (точную или приблизительную);</li>
+<li>доступ к контактам, календарю, журналу звонков, SMS;</li>
+<li>доступ к камере, микрофону, фотографиям и файлам пользователя;</li>
+<li>идентификаторы устройства (IMEI, MAC-адрес, рекламный идентификатор GAID);</li>
+<li>данные об установленных приложениях;</li>
+<li>статистику использования, аналитику и историю действий.</li>
+</ul>
+<h2>3. Разрешения приложения</h2>
+<p>В манифесте Приложения объявлено одно разрешение:</p>
+<table><thead><tr><th>Разрешение</th><th>Зачем</th></tr></thead><tbody><tr><td><code>android.permission.VIBRATE</code></td><td>Тактильный отклик при поглаживании кота. Используется только локально, никаких данных никуда не передаёт.</td></tr></tbody></table>
+<p>Разрешений на доступ в интернет (<code>INTERNET</code>), на чтение памяти, камеру, микрофон и геолокацию в Приложении <strong>нет</strong>. Без разрешения <code>INTERNET</code> приложение физически не способно отправить данные за пределы устройства.</p>
+<h2>4. Локальные данные</h2>
+<p>Приложение не сохраняет пользовательские данные. Выбранный окрас кота, настройки звука и темы действуют только на время текущего сеанса и не записываются на устройство. Файлы cookie и локальное хранилище браузера не используются для отслеживания.</p>
+<h2>5. Передача данных третьим лицам</h2>
+<p>Передача отсутствует: Приложение не взаимодействует с серверами, рекламными сетями, аналитическими платформами и SDK сторонних разработчиков.</p>
+<h2>6. Дети</h2>
+<p>Приложение не собирает данные ни о ком, включая детей младше 13 лет. Контент безобидный: кот лежит на подушке, его можно погладить, звучит мурчание. Рекламы нет.</p>
+<h2>7. Изменения политики</h2>
+<p>При изменении этой политики обновляется дата в начале документа. Новая редакция вступает в силу с момента публикации по этому же адресу. Поскольку Приложение не собирает данные, изменения маловероятны.</p>
+<h2>8. Контакты</h2>
+<p>Вопросы по обработке данных: <strong>{{EMAIL}}</strong></p>
+<p>Разработчик: <strong>{{DEVELOPER_NAME}}</strong></p>
+<hr>
+<h3>English summary</h3>
+<p><strong>Purr</strong> does not collect, transmit, or sell any personal data. The app requires no internet access: the entire scene, artwork, textures and audio are bundled inside the installation package. The only declared permission is <code>VIBRATE</code>, used for tactile feedback while petting the cat. There are no analytics, no advertising, no third-party SDKs, and no cookies. Contact: <strong>{{EMAIL}}</strong></p>
+</main>
+</body>
+</html>
